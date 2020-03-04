@@ -4,20 +4,14 @@ import Hello from './Hello';
 import './style.css';
 
 class App extends Component {
-  constructor() {
-    super();
-    this.state = {
-      name: 'React'
-    };
-  }
+
 
   render() {
     return (
       <div>
-        <Hello name={this.state.name} />
-        <p>
-          Start editing to see some magic happen :)
-        </p>
+        <Hello title='Test 1' />
+        <Hello title='Test 2' />
+        <Hello title='Test 3' />
       </div>
     );
   }
